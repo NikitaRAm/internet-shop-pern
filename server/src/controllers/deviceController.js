@@ -1,7 +1,7 @@
 import * as uuid from 'uuid';
 import path from 'path';
-import { Device, DeviceInfo } from '../models/models.js'
-import ApiError from '../errors/ApiError.js'
+import { Device, DeviceInfo } from '../models/models.js';
+import ApiError from '../errors/ApiError.js';
 
 class DeviceController { 
     async create(req, res, next) {
